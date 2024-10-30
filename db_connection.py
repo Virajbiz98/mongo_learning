@@ -7,16 +7,3 @@ client = MongoClient(MONGO_URL)
 db = client['dev_mongo']
 collection = db['mongo_dev']
 
-#Document = document_collection['Documents']       # this one is not needed 
-
-print(collection)
-
-query = {"name": "isuru"}
-document = collection.find_one(query)
-
-
-# Print the found document
-if document:
-    print(document)
-else:
-    print("Document not found.")
