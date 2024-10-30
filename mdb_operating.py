@@ -3,7 +3,7 @@ query = {"name":"isuru"}
 collection.insert_one(query)
 
 # how to insert many query
-query = {"name":"isuru"},{"name":"eranda"}
+query = [{"name":"isuru"},{"name":"eranda"}]
 colection.insert_many(query)
 
 # how to find query
