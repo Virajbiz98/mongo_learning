@@ -20,6 +20,11 @@ for document in results:
 # how to update query
 collection.update_one({"name":"isuru"},{"$set":{"age":"26"}})
 
-collection.delete_one({"name":"isuru'}
+collection.delete_one({"name":"isuru"})
 
-                      
+# how to count documents
+result = collection.count_documents({})
+print(result)
+
+
+
