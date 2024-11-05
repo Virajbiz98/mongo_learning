@@ -1,3 +1,4 @@
+# this code provide  how to get cpu temperature ewry minute and how to insert it mongodb collection.  
 import wmi
 from connect import collection
 import time
